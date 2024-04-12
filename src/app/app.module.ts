@@ -14,6 +14,7 @@ import { LatestCommentsComponent } from './components/dashboard/latest-comments/
 import { AudienceChartComponent } from './components/dashboard/audience-chart/audience-chart.component';
 import { SubscribersWatchtimeChartComponent } from './components/dashboard/subscribers-watchtime-chart/subscribers-watchtime-chart.component';
 import { ViewsRevenueChartComponent } from './components/dashboard/views-revenue-chart/views-revenue-chart.component';
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { ViewsRevenueChartComponent } from './components/dashboard/views-revenue
     SubscribersWatchtimeChartComponent,
     ViewsRevenueChartComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, RouterOutlet],
+  imports: [BrowserModule, AppRoutingModule, RouterOutlet, NgChartsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
