@@ -19,6 +19,6 @@ span {
 
   &:hover {
     cursor: pointer;
-    background-color: rgba(48, 48, 48, 0.2);
+    background-color: var(--light-black);
   }
 }

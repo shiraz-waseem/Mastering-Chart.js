@@ -1,1 +1,12 @@
-<p>side-nav works!</p>
+<h2 class="flat">Admin Panel</h2>
+
+<ul>
+  <li
+    *ngFor="let item of items"
+    [routerLink]="item.link"
+    routerLinkActive="active"
+  >
+    <span class="icon material-symbols-outlined"> {{ item.icon }} </span>
+    <span class="data"> {{ item.title }} </span>
+  </li>
+</ul>
