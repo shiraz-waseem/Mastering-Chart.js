@@ -1,0 +1,24 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+span {
+  width: 50px;
+  height: 50px;
+
+  //   Cornor py arha after height and width so
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+  border-radius: 50%;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(48, 48, 48, 0.2);
+  }
+}
